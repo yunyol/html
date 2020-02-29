@@ -1,0 +1,37 @@
+* {
+	font-family: 'Gaegu';
+}
+
+.login-box {
+	background-color:green;
+	background-image: url(http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0);
+	background-size: cover;
+	background-position: center;
+	width:300px;
+	height:200px;
+	text-align: center; 
+	border-radius: 10px;
+	color: white;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.login-btn {
+	padding:20px 10px 20px 10px;
+	margin: 20px;
+	border: 10px solid black;
+}
+
+.login-box > h1 {
+	margin: 0px 0px 10px 0px;
+
+}
+
+.wrap {
+	width: 300px;
+	margin: 20px auto 0px auto;
+}
